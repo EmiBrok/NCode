@@ -1,0 +1,2029 @@
+@font-face {
+    font-family: soinsanslight;
+    src: url(../fonts/Stawix\ -\ SoinSansNeue-Light.otf);
+}
+
+@font-face {
+    font-family: soinsansheavy;
+    src: url(../fonts/Stawix\ -\ SoinSansNeue-Heavy.otf);
+}
+
+.clear{
+    clear: both;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+header{
+    background-color: #F5F5F5;
+}
+
+body{
+    background-color: #F5F5F5;
+}
+
+nav{
+    width: 100%;
+    height: 500px;
+    background-image: url(../assets/headervorm.png);
+    background-size: 1900px;
+    background-repeat: no-repeat;
+    background-position: center -420px;
+    background-position-x: -150px;
+}
+
+.logowit{
+    width: 10vw;
+    height: 10vw;
+    background-image: url(/assets/Logo.png);
+    background-size: 100%;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    float: left;
+}
+
+ul li a{
+    font-family: soinsansheavy;
+    text-decoration: none;
+    color: white;
+    font-size: 2.0vw;
+}
+
+ul li{
+    float: left;
+    margin-left: 7vw;
+    margin-top: 6vw;
+}
+
+ul{
+    width: 60vw;
+    padding-left: 50%;
+}
+
+.vak1{
+    position: absolute;
+    width: 100%;
+    margin-top: -360px;
+}
+
+.textvak1{
+    float: left;
+    padding-left: 100px;
+}
+
+h1{
+    font-family: soinsansheavy;
+    font-size: 3vw;
+    color: #707070;
+    margin-top: 170px;
+}
+
+p{
+    font-family: soinsanslight;
+    font-size: 1.5vw;
+    color: #707070;
+    width: 400px;
+    margin-top: 13px;
+    margin-bottom: 45px;
+    line-height: 30px;
+}
+
+.leesmeer{
+    background-color: #735EE5;
+    color: white;
+    font-family: soinsansheavy;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 20px 70px;
+    border-radius: 50px;
+}
+
+.bgillustration{
+    width: 1000px;
+    height: 600px;
+    background-image: url(../assets/Path\ 65@2x.png);
+    background-size: 950px 580px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 480px;
+}
+
+.illustration{
+    width: 900px;
+}
+
+.h1mid{
+    width: 100%;
+    text-align: center;
+    padding-top: 150px;
+    border-bottom: 3px solid #707070;
+    padding-bottom: 30px;
+}
+
+.vormenvak{
+    padding-left: 5%;
+}
+
+#vormen{
+    width: 400px;
+    height: 370px;
+    float: left;
+    background-size: contain;
+    background-position: center center;
+    margin-top: 120px;
+    margin-left: 5%;
+    background-repeat: no-repeat;
+    transition: transform .2s;
+}
+
+#vormen:hover{
+    transform: scale(1.3);
+}
+
+.vorm1{
+    background-image: url(../assets/shape1.png);
+}
+
+.vorm2{
+    background-image: url(../assets/shape2.png);
+}
+
+.vorm3{
+    background-image: url(../assets/shape3.png);
+}
+
+.icons{
+    width: 90px;
+    margin-top: 110px;
+}
+
+#book{
+    margin-left: 200px;
+    width: 70px;
+}
+
+#download{
+    margin-left: 160px;
+}
+
+#computer{
+    margin-left: 115px;
+    margin-top: 95px;
+}
+
+h2{
+    font-family: soinsansheavy;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.h2book{
+    margin-left: 110px;
+}
+
+.h2download{
+    margin-left: 80px;
+}
+
+.h2computer{
+    margin-left: 57px;
+}
+
+.icontext{
+    color: white;
+    font-size: 1.1vw;
+    line-height: 1.2vw;
+    text-align: center;
+}
+
+#pbook{
+    width: 190px;
+    margin-left: 100px;
+}
+
+#pdownload{
+    width: 170px;
+    margin-left: 120px;
+}
+
+#pcomputer{
+    width: 200px;
+    margin-left: 48px;
+}
+
+#bigvorm1{
+    width: 100%;
+    height: 1100px;
+    background-image: url(../assets/bigshape1.png);
+    background-position-x: -150px;
+    background-repeat: no-repeat;
+    background-size: 2000px;
+}
+
+.bigshapeh2{
+    width: 500px;
+    text-align: center;
+    line-height: 49px;
+    font-size: 2.8vw;
+    margin-left: 31vw;
+    padding-top: 40vh;
+    border-bottom: 3px solid white;
+}
+
+.bigshapetext{
+    color: white;
+    font-size: 1.3vw;
+    line-height: 22px;
+    text-align: center;
+    width: 500px;
+    margin-left: 31vw;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.thumb{
+    width: 320px;
+    height: 380px;
+    background-color: white;
+    border-radius: 35px;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.thumb:nth-child(1){
+    margin-left: 250px;
+}
+
+.thumb:nth-child(5){
+    margin-right: 250px;
+}
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+#rightbutton{
+    margin-left: 2vw;
+}
+
+#leftbutton{
+    margin-left: 10%;
+}
+
+h4{
+    font-family: soinsansheavy;
+    color: #6F00BD;
+    font-size: 1.7vw;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+h6{
+    font-family: soinsanslight;
+    color: #6F00BD;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.moeilijk{
+    font-size: 14px;
+    margin-bottom: 230px;
+    float: left;
+}
+
+.klok{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+#klokje{
+    margin-left: 0px;
+}
+
+#dot{
+    float: left;
+    width: 0.7vw;
+    height: 0.7vw;
+    border-radius: 50px;
+    border: 1px solid #6F00BD;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.closeddot{
+    background: #6F00BD;
+}
+
+.linksboven{
+    width: 250px;
+    float: left;
+}
+
+.meerinfo{
+    font-family: soinsansheavy;
+    font-size: 18px;
+    color: white;
+    background-color: #6F00BD;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin-left: 65px;
+}
+
+.bigvorm2{
+    width: 100%;
+    height: 910px;
+    background-image: url(../assets/bigshape2.png);
+    background-repeat: no-repeat;
+    background-position-x: -500px;
+    background-position-y: -50px;
+    background-size: 2200px;
+}
+
+#bredertextvak{
+    width: 700px;
+    margin-left: 27%;
+}
+
+#onzevisie{
+    padding-top: 445px;
+}
+
+.bigvorm3{
+    width: 100%;
+    height: 1100px;
+    background-image: url(../assets/bigshape3.png);
+    background-repeat: no-repeat;
+    background-position-x: -500px;
+    background-size: 2700px;
+}
+
+strong{
+    font-family: soinsansheavy;
+}
+
+#wiezijnwij{
+    padding-top: 250px;
+}
+
+#smallertextvak{
+    width: 350px;
+    margin-left: 38%;
+}
+
+h3{
+    float: left;
+    font-family: soinsansheavy;
+    color: white;
+    font-size: 18px;
+}
+
+.fotovak{
+    width: 250px;
+    height: 330px;
+    float: left;
+    margin-left: 40px;
+}
+
+.fotovak:nth-child(1){
+    margin-left: 13%;
+}
+
+.firstname{
+    margin-left: 20px;
+}
+
+.secondname{
+    margin-left: 80px;
+}
+
+.thirdname{
+    margin-left: 50px;
+}
+
+.fourthname{
+    margin-left: 75px;
+}
+
+.fotos{
+    height: 220px;
+    margin-top: 20px;
+}
+
+.fotos:nth-child(1){
+    margin-left: 15%;
+}
+
+.buttonvak{
+    width: 500px;
+    margin-top: 0px;
+    padding-left: 41.5%;
+}
+
+.stuurons{
+    font-family: soinsansheavy;
+    font-size: 18px;
+    color: white;
+    background-color: #6F00BD;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+.footerlogo{
+    width: 124px;
+    height: 124px;
+    margin-left: 50px;
+    margin-top: 30px;
+    float: left;
+    padding-bottom: 30px;
+}
+
+.footertext{
+    color: #7D5DD7;
+    font-size: 2.0vw;
+}
+
+.footerlist{
+    margin-top: 90px;
+    font-size: 2.0vw;
+    margin-left: 4vw;
+}
+
+.footerul{
+    padding-left: 50%;
+}
+
+/*Workshop pagina*/
+
+.workul{
+    width: 800px;
+    padding-left: 50%;
+}
+
+.workh4{
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.worktext{
+    float: left;
+    font-size: 1.3vw;
+}
+
+.light{
+    font-family: soinsanslight;
+    font-size: 1.3vw;
+    margin-left: 7vw;
+}
+
+#margintop{
+    margin-top: 100px;
+}
+
+#nomargin{
+    margin-left: 0px;
+}
+
+.workh1{
+    margin-top: 1.5vw;
+}
+
+#worktextvak1{
+    margin-top: 2vw;
+    margin-left: 5vw;
+}
+
+.promovak{
+    width: 37vw;
+    height: 37vw;
+    background-image: url(../assets/Group\ 104@2x.png);
+    background-size: contain;
+    background-position: center center;
+    float: right;
+    margin-right: 5vw;
+    margin-top: 4vh;
+}
+
+.promo{
+    width: 27vw;
+    margin-top: 9vw;
+    margin-left: 4vw;
+}
+
+#videodisc{
+    width: 200px;
+    margin-left: 9vw;
+}
+
+.bigvorm4{
+    width: 100%;
+    height: 1200px;
+    background-image: url(../assets/bigshape4.png);
+    background-size: 2000px;
+    background-position-x: -200px;
+    background-position-y: -70px;
+    background-repeat: no-repeat;
+    margin-top: 10vh;
+}
+
+#langerestreep{
+    margin-left: 31vw;
+}
+
+.bigvorm5{
+    width: 100%;
+    height: 1500px;
+    margin-top: -35vh;
+    background-image: url(../assets/bigshape5.png);
+    background-size: 2300px;
+    background-position-x: -230px;
+    background-position-y: -50px;
+    background-repeat: no-repeat;
+}
+
+#langerestreep2{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 28.5vw;
+    padding-top: 315px;
+}
+
+#secondh2{
+    padding-top: 100px;
+}
+
+.numbers{
+    width: 60px;
+    margin-left: 38vw;
+    float: left;
+    margin-top: 10px;
+}
+
+.pakket{
+    width: 250px;
+    padding-left: 0;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 30px;;
+}
+
+.pakketli{
+    font-family: soinsansheavy;
+    color: white;
+    -webkit-text-stroke: 0.5px #5a388d;
+    font-size: 18px;
+    line-height: 22px;
+    float: none;
+    margin-left: 0;
+    margin-top: 45px;
+}
+
+.koop{
+    font-family: soinsansheavy;
+    color: #6F00BD;
+    background-color: white;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-left: 43vw;
+    margin-top: 20px;
+}
+
+.tutorialvak{
+    width: 50vw;
+    height: 50vw;
+    background-image: url(../assets/tutorialvorm.png);
+    background-size: contain;
+    background-position: center center;
+    margin-left: 27%;
+    background-repeat: no-repeat;
+}
+
+#nostreep{
+    font-size: 2.8vw;
+    border: 0px;
+    margin-left: 7.5vw;
+    padding-top: 12.5vw;
+}
+
+.tutorial{
+    width: 30vw;
+    float: left;
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+
+.arrowbutton{
+    font-family: soinsansheavy;
+    color: #707070;
+    font-size: 40px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 8px 15px;
+    text-decoration: none;
+    float: left;
+    margin-top: 8vw;
+}
+
+/*kopen pagina*/
+
+#orderTop {
+    display: none;
+}
+
+.h1kopen{
+    margin-top: 0;
+    margin-left: 29%;
+    margin-right: 29%;
+    padding-left: 10%;
+    border-bottom: 3px solid #707070;
+    line-height: 70px;
+    margin-bottom: 50px;
+}
+
+.navkopen{
+    height: 380px;
+}
+
+input[type=text] {
+    background-color: transparent;
+    font-family: soinsanslight;
+    font-size: 1.4vw;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+#linkervak-1, #linkervak-2, #linkervak-3, #linkervak-4, #linkervak-5{
+    margin-left: 16%;
+    margin-top: 50px;
+    float: left;
+}
+
+.naam{
+    width: 21vw;
+}
+
+#rechtervak-1, #rechtervak-2, #rechtervak-3{
+    margin-left: 10%;
+    margin-top: 50px;
+    float: left;
+}
+
+.school{
+    width: 26.7vw;
+}
+
+.nummer{
+    width: 220px;
+}
+
+.gegevens{
+    float: left;
+    width: 65vw;
+}
+
+.sideblokken{
+    float: left;
+    margin-left: 60px;
+}
+
+.emailadres{
+    width: 33vw;
+    margin-top: 70px;
+    margin-left: 16%;
+}
+
+.order{
+    width: 26vw;
+    height: 15vw;
+    background-color: white;
+    border-radius: 40px;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin: 30px 0vw 30px 0px;
+}
+
+#inputabove{
+    margin-top: 100px;
+}
+
+h5{
+    font-family: soinsansheavy;
+    color: #707070;
+    font-size: 1.5vw;
+    border-bottom: 2px solid #707070;
+    width: 21vw;
+    line-height: 30px;
+}
+
+.p3{
+    font-size: 1.2vw;
+    line-height: 2.3vw;
+    height: fit-content;
+    margin-top: 0.9vw;
+    margin-bottom: 0px;
+}
+
+#leftp{
+    float: left;
+    width: 21vw;
+}
+
+#rightp{
+    float: left;
+    width: 50px;
+}
+
+#streeptop{
+    float: left;
+    width: 21vw;
+    border-top: 2px solid #707070;
+    padding-top: 20px;
+}
+
+#pomlaag{
+    float: left;
+    width: 50px;
+    padding-top: 20px;
+}
+
+#kleinervak{
+    line-height: 25px;
+    margin-top: 10px;
+    margin-bottom: 5%;
+    width: 24vw;
+}
+
+.smalllink{
+    background-color: #6C1CC6;
+    color: white;
+    font-family: soinsansheavy;
+    font-size: 1.4vw;
+    border-radius: 50px;
+    padding: 0.5vw 1.7vw;
+    text-decoration: none;
+    margin-left: 15vw;
+    margin-top: 30px;
+}
+
+#lastorder{
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+#lastorder video{
+    width: 24vw;
+}
+
+#check{
+    margin-top: 70px;
+    margin-left: 16%;
+    margin-bottom: 70px;
+}
+
+label{
+    font-family: soinsanslight;
+    color: #707070;
+    font-size: 1.5vw;
+}
+
+.kopenknop{
+    text-decoration: none;
+    background-color: #6C1CC6;
+    color: white;
+    font-family: soinsansheavy;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin-left: 10vw;
+}
+
+.kopenfooter{
+    margin-top: 200px;
+}
+
+.kopenmain{
+    background-image: url(../assets/Bubbel.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position-x: 800px;
+    background-position-y: 450px;
+}
+
+/*modal*/
+
+.ui-widget-overlay {
+    background-color: black;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: .5;
+    filter: Alpha(Opacity=50);
+}
+
+.ui-front {
+    z-index: 100;
+}
+
+.ui-widget {
+    font-family: soinsanslight;
+    font-size: 20px;
+}
+
+.ui-widget-content {
+    background: #F9F9F9;
+    border: 2px solid #6F00BD;
+    color: #707070;
+    border-radius: 0px 0px 9px 9px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.ui-dialog {
+    left: 0;
+    outline: 0 none;
+    padding: 0 !important;
+    position: absolute;
+    top: 0;
+}
+
+#dialog{
+    padding: 0;
+    margin: 0; 
+}
+
+.ui-widget-header {
+    background: #6F00BD;
+    border: 0;
+    color: #fff;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: left;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    padding: 0.1em .5em;
+    position: relative;
+        font-size: 1em;
+        outline: 0;
+}
+
+.ui-dialog .ui-dialog-titlebar-close{
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    background: none;
+    font-family: soinsansheavy;
+    color: white;
+    border: 0;
+    outline: 0;
+}
+
+.ui-dialog-osx {
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    border-radius: 15px 15px 15px 15px; 
+    border-width: 5px 5px 5px 5px;
+}
+
+.modalpic{
+    width: 350px;
+}
+
+@media only screen and (max-width: 1500px){
+    h2{
+        font-size: 22px;
+    }
+
+    #pcomputer {
+        width: 200px;
+    }
+
+    .h2book {
+        margin-left: 27%;
+    }
+
+    #pbook {
+        margin-left: 24%;
+    }
+
+    .bgillustration{
+        width: 900px;
+        height: 600px;
+        background-size: 900px 600px;
+    }
+
+    .illustration{
+        width: 850px;
+    }
+
+    #vormen{
+        margin-left: 30px;
+    }
+    
+    .vormenvak{
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 1400px){
+    .fotovak:nth-child(1){
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 1380px){
+    .bgillustration{
+        width: 800px;
+        height: 550px;
+        background-size: 800px 550px;
+        padding-top: 50px;
+    }
+
+    .illustration{
+        width: 750px;
+    }
+
+    .fotovak:nth-child(1){
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 1365px){
+    h3{
+        margin-left: 11vw;
+    }
+    .thumb:nth-child(1){
+        margin-left: 200px;
+    }
+    .thumb:nth-child(5){
+        margin-right: 200px;
+    }
+
+    .p3{
+        font-size: 1vw;
+    }
+}
+
+@media only screen and (max-width: 1320px){
+    #vormen{
+        margin-left: 20px;
+    }
+    .vormenvak{
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    nav{
+        background-size: 1500px;
+        background-repeat: no-repeat;
+        background-position: center -300px;
+    }
+
+    p{
+        margin-bottom: 35px;
+    }
+
+    .leesmeer{
+        font-size: 20px;
+        padding: 15px 55px;
+    }
+
+    .h1mid{
+        padding-top: 110px;
+    }
+    .thumb:nth-child(1){
+        margin-left: 120px;
+    }
+    .thumb:nth-child(5){
+        margin-right: 120px;
+    }
+
+    #nostreep {
+        margin-left: 6vw;
+    }
+
+    .tutorial {
+        margin-left: 0vw;
+    }
+
+    #leftbutton{
+        margin-left: 7.5%;
+        margin-right: 2vw;
+    }
+}
+
+@media only screen and (max-width: 1280px){
+    .bgillustration{
+        width: 700px;
+        height: 500px;
+        background-size: 700px 500px;
+    }
+
+    .illustration{
+        width: 650px;
+    }
+
+    #vormen{
+        margin-left: 10px;
+    }
+
+    .vormenvak{
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 1250px){
+    #vormen{
+        width: 370px;
+        height: 360px;
+        background-size: 370px 360px;
+        margin-left: 20px;
+    }
+    
+    #book{
+        margin-left: 170px;
+    }
+
+    .h2book{
+        margin-left: 90px;
+    }
+
+    .pbook{
+        margin-left: -20px;
+    }
+
+    .h2download{
+        margin-left: 50px;
+    }
+
+    #download{
+        margin-left: 150px;
+    }
+    
+    #computer{
+        margin-left: 110px;
+    }
+
+    .h2computer{
+        margin-left: 40px;
+    }
+
+    .pcomputer{
+        margin-left: 30px;
+    }
+
+    .footerul{
+        padding-left: 40%;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .leesmeer{
+        font-size: 20px;
+        padding: 15px 55px;
+    }
+
+    ul li{
+        margin-left: 100px;
+    }
+
+    ul{
+        padding-left: 45%;
+    }
+
+    .h1mid{
+    padding-top: 80px;
+    }
+
+    .thumb{
+        width: 280px;
+        height: 340px;
+    }
+
+    .meerinfo{
+        margin-left: 50px;
+    }
+
+    .workul{
+        padding-left: 40%;
+    }
+
+    #nostreep {
+        margin-left: 4vw;
+    }
+}
+
+@media only screen and (max-width: 1180px){
+    .bgillustration{
+        width: 600px;
+        height: 450px;
+        background-size: 600px 450px;
+        padding-top: 30px;
+    }
+    .illustration{
+        width: 550px;
+    }
+    #vormen:nth-child(3){
+        margin-left: 35%;
+        margin-top: 0;
+    }
+    #vormen:nth-child(1){
+        margin-left: 10%;
+    }
+    #vormen:nth-child(2){
+        margin-left: 15%;
+    }
+
+    .bigshapeh2{
+        margin-left: 30%;
+    }
+
+    #bredertextvak{
+        width: 500px;
+        margin-left: 30%;
+    }
+    #onzevisie{
+        padding-top: 370px;
+    }
+
+    #smallertextvak{
+        margin-left: 36%;
+    }
+
+    .fotovak:nth-child(1){
+        margin-left: 25%;
+    }
+
+    .fotovak:nth-child(2){
+        margin-left: 10%;
+    }
+
+    .fotovak:nth-child(3){
+        margin-left: 25%;
+    }
+
+    .fotovak:nth-child(4){
+        margin-left: 10%;
+    }
+
+    .footerlogo{
+        width: 10vw;
+        height: 10vw;
+        margin-top: 40px;
+    }
+    
+    footer{
+        margin-top: 70px;
+    }
+} 
+
+@media only screen and (max-width: 1165px){
+    h3{
+        margin-left: 10vw;
+    }
+
+    .footerul ul li {
+        margin-left: 12%;
+    }
+
+    .p3{
+        line-height: 1.9vw;
+
+    }
+
+    #leftp {
+        width: 20vw;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    #orderTop {
+        display: block;
+    }
+
+    .order {
+        width: 75vw;
+        height: 21vw;
+        background-color: white;
+        border-radius: 40px;
+        padding-top: 30px;
+        padding-left: 30px;
+        margin-left: 10vw;
+        margin-top: -2vw;
+    }
+
+    .h1kopen{
+        margin: 10vw 29% 0px 29%;
+        padding-left: 10%;
+        border-bottom: 3px solid #707070;
+        line-height: 70px;
+        margin-bottom: 50px;
+    }
+
+    .gegevens {
+        width: 90vw;
+    }
+
+    .naam {
+        width: 30vw;
+    }
+
+    .school {
+        width: 37vw;
+    }
+
+    .nummer {
+        width: 22.5vw;
+    }
+
+    .emailadres {
+        width: 40vw;
+        margin-top: 60px;
+        margin-left: 16%;
+    }
+
+    .p3 {
+        font-size: 2vw;
+        line-height: 4vw;
+        height: fit-content;
+        margin-top: 0.9vw;
+        margin-bottom: 0px;
+    }
+
+    #leftp {
+        width: 65vw;
+    }
+
+    h5 {
+        font-family: soinsansheavy;
+        color: #707070;
+        font-size: 2.5vw;
+        border-bottom: 2px solid #707070;
+        width: 60vw;
+        line-height: 30px;
+    }
+
+    #streeptop {
+        float: left;
+        width: 60vw;
+        border-top: 2px solid #707070;
+        padding-top: 10px;
+        margin-right: 5vw;
+    }
+
+    .sideblokken {
+        display: none;
+    }
+
+    input[type=text] {
+        background-color: transparent;
+        font-family: soinsanslight;
+        font-size: 1.8vw;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+    }
+
+    .kopenknop {
+        font-size: 20px;
+        padding: 10px 40px;
+        margin-left: 14vw;
+    }
+
+    label {
+        font-size: 1.9vw;
+    }
+}
+
+@media only screen and (max-width: 1095px){
+    h3{
+        margin-left: 9vw;
+    }
+
+    .footerul ul li {
+        margin-left: 10%;
+    }
+
+    .thumb{
+        width: 240px;
+        height: 300px;
+    }
+
+    .meerinfo{
+        margin-left: 30px;
+    }
+
+    #videodisc{
+        width: 150px;
+    }
+
+    .koop{
+        margin-left: 45vw;
+    }
+
+    #nostreep {
+        margin-left: 2vw;
+    }
+}
+
+@media only screen and (max-width: 1080px){
+    .bgillustration{
+        width: 500px;
+        height: 400px;
+        background-size: 500px 400px;
+    }
+
+    .illustration{
+        width: 500px;
+    }
+
+    .h1mid{
+        padding-top: 0;
+        margin-top: 100px;
+    }
+    #vormen:nth-child(3){
+        margin-left: 30%;
+        margin-top: 0;
+    }
+    #vormen:nth-child(1){
+        margin-left: 7%;
+    }
+    #vormen:nth-child(2){
+        margin-left: 10%;
+    }
+    
+} 
+
+@media only screen and (max-width: 1050px){
+    #langerestreep, .bigshapetext{
+        margin-left: 25vw;
+    }
+
+    #langerestreep2{
+        margin-left: 22vw;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    nav{
+        background-size: 1300px;
+        background-repeat: no-repeat;
+        background-position: center -230px;
+    }
+
+    .textvak1{
+        padding-left: 50px;
+    }
+
+    p{
+        margin-bottom: 30px;
+        width: 300px;
+    }
+
+    .leesmeer{
+        font-size: 18px;
+        padding: 15px 55px;
+    }
+
+    main h1{
+        margin-top: 20%;
+    }
+
+    .footerul ul li {
+        margin-left: 8%;
+    }
+
+    .bgillustration{
+        margin-left: 400px;
+    }
+    #vormen:nth-child(3){
+        margin-left: 30%;
+        margin-top: 0;
+    }
+    #vormen:nth-child(1){
+        margin-left: 7%;
+    }
+    #vormen:nth-child(2){
+        margin-left: 7%;
+    }
+
+    #nostreep {
+        margin-left: 0vw;
+    }
+
+    .tutorialvak {
+        width: 70vw;
+        height: 70vw;
+        margin-left: 15%;
+    }
+
+    #nostreep {
+        font-size: 4.5vw;
+        margin-left: 9vw;
+    }
+
+    .tutorial {
+        width: 45vw;
+        float: left;
+        margin-top: 4vw;
+    }
+
+    .arrowbutton {
+        margin-top: 14vw;
+    }
+}
+
+@media only screen and (max-width: 985px){
+    h3{
+        margin-left: 7.5vw;
+    }
+
+    .thumb:nth-child(1){
+        margin-left: 5%;
+    }
+
+    .thumb:nth-child(5){
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 930px){
+    #vormen:nth-child(3){
+        margin-left: 28%;
+        margin-top: 0;
+    }
+    #vormen:nth-child(1){
+        margin-left: 5%;
+    }
+    #vormen:nth-child(2){
+        margin-left: 8%;
+    }
+    .footerul{
+        padding-left: 28%;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .bgillustration{
+        width: 400px;
+        height: 300px;
+        background-size: 400px 300px;
+    }
+
+    .illustration{
+        width: 400px;
+        margin-left: -30px;
+    }
+
+    .h1mid{
+        margin-top: 50px;
+    }
+
+    .thumb:nth-child(1){
+        margin-left: 20%;
+    }
+    .thumb:nth-child(5){
+        margin-right: 20%;
+    }
+    
+    #onzevisie{
+        padding-top: 350px;
+    }
+
+    #bredertextvak{
+        margin-left: 20%;
+    }
+
+    #smallertextvak{
+        margin-left: 27%;
+    }
+
+    .fotovak:nth-child(1){
+        margin-left: 18%;
+    }
+
+    .fotovak:nth-child(2){
+        margin-left: 5%;
+    }
+
+    .fotovak:nth-child(3){
+        margin-left: 18%;
+    }
+
+    .fotovak:nth-child(4){
+        margin-left: 5%;
+    }
+    .buttonvak{
+        padding-left: 35%;
+    }
+
+    .workul{
+        width: 800px;
+        padding-left: 35%;
+    }
+
+    .koop{
+        margin-left: 43vw;
+    }
+
+    #nostreep {
+        margin-left: 7vw;
+    }
+
+    .footerlist {
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (max-width: 875px){
+    nav{
+        background-size: 1000px;
+        background-repeat: no-repeat;
+        background-position: center -180px;
+    }
+    
+    .textvak1{
+        float: left;
+        padding-left: 5%;
+    }
+
+    #worktextvak1{
+        margin-top: 20vw;
+        margin-left: 5vw;
+    }
+    
+    h1{
+        margin-top: 100px;
+    }
+
+    .leesmeer{
+        font-size: 16px;
+        padding: 15px 55px;
+    }
+
+    .bigvorm4{ 
+        margin-top: -20vh;
+        background-size: 1700px;
+        background-position-y: 0px;
+    }
+    
+    #videodisc{
+        width: 100px;
+        margin-left: 10vw;
+    }
+
+    #langerestreep, .bigshapetext{
+        margin-left: 20vw;
+    }
+
+    #langerestreep2{
+        margin-left: 12vw;
+    }
+
+    .promo{
+        width: 35vw;
+        margin-left: 7vw;
+        margin-top: 13vh;
+    }
+
+    .promovak{
+        width: 50vw;
+        height: 50vw;
+        margin-right: 5vw;
+        margin-top: 20vh;
+    }
+
+    .bigshapeh2{
+        margin-left: 20vw;
+    }
+
+    .numbers {
+        margin-left: 30vw;
+    }
+
+    .koop{
+        margin-left: 40vw;
+    }
+}
+
+@media only screen and (max-width: 875px){
+    #vormen:nth-child(1){
+        margin-top: 45px;
+        margin-left: 25%;
+    }
+    #vormen:nth-child(2){
+        margin-top: 20px;
+        margin-left: 25%;
+    }
+    #vormen:nth-child(3){
+        margin-left: 25%;
+        margin-top: 20px;
+    }
+    .vormenvak{
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .logowit{
+        width: 13vw;
+        height: 13vw;
+        margin-left: 3vw;
+        margin-top: 4vw;
+    }
+
+    ul li a{
+        font-size: 3vw;
+    } 
+
+    ul li{
+        margin-left: 6vw;
+        margin-top: 6vw;
+    }
+
+    .fotovak:nth-child(1){
+        margin-left: 14%;
+    }
+
+    .fotovak:nth-child(3){
+        margin-left: 14%;
+    }
+
+    .workh4, .worktext, .light{
+        font-size: 2.3vw;
+    }
+
+    .light{
+        margin-left: 12vw;
+    }
+
+    h1{
+        font-size: 4vw;
+    }
+
+    .promovak{
+        width: 42vw;
+        height: 42vw;
+        margin-right: 5vw;
+        margin-top: 20vh;
+    }
+    
+    .promo{
+        width: 33vw;
+        margin-top: 9vw;
+        margin-left: 4vw;
+    }
+
+    #worktextvak1{
+        margin-top: 18vh;
+    }
+    
+    #videodisc{
+        margin-left: 12vw;
+    }
+
+    .bigshapeh2 {
+        font-size: 4.5vw;
+    }
+
+    .bigshapetext {
+        font-size: 2vw;
+    }
+
+    .tutorialvak {
+        width: 80vw;
+        height: 80vw;
+        margin-left: 10%;
+    }
+
+    #nostreep {
+        font-size: 4.5vw;
+        margin-left: 8vw;
+    }
+
+    .tutorial {
+        width: 55vw;
+        float: left;
+        margin-top: 6vw;
+    }
+
+    #leftbutton{
+        margin-left: 2.5%;
+        margin-right: 2vw;
+    }
+
+    .footerlist {
+        margin-left: 50px;
+    }
+
+    .footertext {
+        font-size: 2.5vw;
+    }
+
+    .order {
+        height: 25vw;
+        margin-top: -10vw;
+        padding-top: 30px;
+    }
+
+    h5 {
+        font-size: 3vw;
+    }
+
+    .p3 {
+        font-size: 2.5vw;
+        margin-top: 1.2vw;
+    }
+
+    .h1kopen {
+        margin: 10vw 24% 0px 21%;
+    }
+
+    input[type=text] {
+        font-size: 2.5vw;
+    }
+
+    .naam {
+        width: 65vw;
+    }
+
+    #rechtervak-1, #rechtervak-2, #rechtervak-3 {
+        margin-left: 16%;
+    }
+
+    .school {
+        width: 65vw;
+    }
+
+    .emailadres {
+        width: 65vw;
+    }
+
+    label {
+        font-size: 2.6vw;
+    }
+}
+
+@media only screen and (max-width: 770px){
+    .bigshapeh2{
+        margin-left: 15%;
+    }
+
+    #bredertextvak{
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    #langerestreep{
+        margin-left: 14vw;
+    } 
+
+    .bigshapetext {
+        margin-left: 14vw;
+    }
+
+    #langerestreep2 {
+        margin-left: 7vw;
+    }
+
+    .bigshapeh2{
+        width: 70vw;
+    }
+
+    .numbers {
+        width: 40px;
+        margin-left: 25vw;
+    }
+
+    .pakketli{
+        font-size: 15px;
+        line-height: 0px;
+        margin-bottom: 20px;
+    }
+
+    #nostreep {
+        font-size: 4.5vw;
+        margin-left: 6vw;
+    }
+
+    .footerlist {
+        margin-top: 60px;
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .tutorial {
+        width: 50vw;
+        float: left;
+        margin-top: 6vw;
+        margin-left: 0vw;
+    }
+
+    .arrowbutton {
+        margin-top: 16vw;
+    }
+
+    #leftbutton{
+        margin-left: 5%;
+        margin-right: 2vw;
+    }
+}
+
+@media only screen and (max-width: 625px){
+    .bigshapetext{
+        width: 80vw;
+    }
+
+    #langerestreep {
+        width: 80vw;
+    }
+
+    #langerestreep2 {
+        width: 70vw;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    nav{
+        width: 100%;
+        height: 500px;
+        background-image: url(../assets/headervorm.png);
+        background-size: 1500px;
+        background-repeat: no-repeat;
+        background-position: center -420px;
+        background-position-x: -600px;
+        background-position-y: -400px;
+    }
+
+    #worktextvak1{
+        margin-top: 28vw;
+    }
+
+    #videodisc{
+        display: none;
+    }
+
+    .promovak{
+        width: 50vw;
+        height: 50vw;
+        margin-right: 5vw;
+        margin-top: 20vh;
+    }
+    
+    .promo{
+        width: 38vw;
+        margin-top: 14vw;
+        margin-left: 6vw;
+    }
+
+    .bigshapeh2{
+        padding-top: 35vh;
+    }
+
+    .bigshapetext{
+        font-size: 3vw;
+    }
+
+    .koop{
+        margin-left: 35vw;
+    }
+
+    .tutorialvak {
+        width: 80vw;
+        height: 80vw;
+        margin-left: 7.5%;
+    }
+
+    .tutorial {
+        width: 50vw;
+        float: left;
+        margin-top: 6vw;
+    }
+
+    .arrowbutton {
+        padding: 4px 10px;
+    }
+
+    #leftbutton{
+        margin-left: 2.5%;
+        margin-right: 2vw;
+    }
+
+    .order {
+        height: 30vw;
+        margin-top: -20vw;
+        padding-top: 30px;
+    }
+
+    .kopenknop {
+        font-size: 15px;
+        padding: 10px 7vw;
+        margin-left: 14vw;
+    }
+
+    #downloaden {
+        margin-left: 6vw;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .footerlist {
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .promovak{
+        margin-top: 28vh;
+    }
+
+    #worktextvak1{
+        margin-top: 20vh;
+    }
+
+    .numbers {
+        margin-left: 20vw;
+    }
+
+    .koop{
+        margin-left: 30vw;
+    }
+
+    #leftp {
+        width: 60vw;
+    }
+
+    #streeptop {
+        width: 60vw;
+        margin-right: 0vw;
+    }
+
+    #linkervak-1, #linkervak-2, #linkervak-3, #linkervak-4, #linkervak-5, #rechtervak-1, #rechtervak-2, #rechtervak-3, .emailadres {
+        margin-top: 40px;
+    }
+
+    #inputabove {
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .tutorialvak {
+        margin-top: -25vw;
+    }
+
+    .order {
+        height: 30vw;
+        margin-top: -30vw;
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .pakket {
+        width: 150px;
+    }
+
+    .pakketli{
+        font-size: 13px;
+    }
+
+    .tutorial {
+        margin-top: 2vw;
+        width: 45vw;
+    }
+
+    .arrowbutton {
+        margin-top: 10vw;
+    }
+
+    .footerlist {
+        margin-left: 20px;
+    }
+
+}
